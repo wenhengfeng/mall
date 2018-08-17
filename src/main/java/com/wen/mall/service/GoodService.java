@@ -53,11 +53,7 @@ public class GoodService {
         return  goodMapper.selectByPrimaryKey(id);
     }
 
-    public List<Good> findGoods(){
-    	//判断是否存在key
 
-		return null;
-	}
 
 	/**
 	 *  从redis获取所有商品信息
